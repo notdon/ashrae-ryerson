@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+p {
+    line-height: 1.9em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    text-align: center;
+    padding: .7em 1.3em;
+}
+
+.card-container {
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(30deg, rgb(161, 159, 159),rgb(19, 18, 18),rgb(111, 116, 40));
+    color: white;
+}
+
+.card-container ul {
+    padding: .7em 1.3em;
+}
+
+.card-container li {
+    padding-top: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-text {
+    margin-right: 40%;
+}
+
+.logo {
+    width: 75px;
+}
