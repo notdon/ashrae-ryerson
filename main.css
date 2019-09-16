@@ -1,3 +1,6 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
 .navbar-item-logo {
     background: url(logo.png) no-repeat center center;
     background-size: cover;
@@ -14,128 +17,29 @@ border-radius: 2%;
     margin-top: 1.618em;
 
 }
-.events-rectangle{
- position: absolute;
-left: 0%;
-right: 0%;
-top: 60.84%;
-bottom: 29.51%;
 
-background: linear-gradient(89.8deg, #20A1E2 1.7%, #5BE7C3 99.94%);
-opacity: 0.5;
+.make-it-light{
+    font-weight: 300;
 }
 
-.events-header{
-    position: absolute;
-left: 5%;
-right: 41.95%;
-top: 61.78%;
-bottom: 37.24%;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 58px;
-line-height: 30px;
-/* or 52% */
-
-display: flex;
-align-items: center;
-letter-spacing: 0.05em;
-
-color: #000000;
-
-}
-
-.events-title{
-    position: absolute;
-left: 21.19%;
-right: 35.66%;
-top: 63.58%;
-bottom: 35.75%;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 32px;
-line-height: 30px;
-/* or 94% */
-
-display: flex;
-align-items: center;
-letter-spacing: 0.05em;
-
-color: #000000;
-}
-
-.events-date{
-    position: absolute;
-left: 5%;
-right: 89.66%;
-top: 63.92%;
-bottom: 35.41%;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 48px;
-line-height: 25px;
-/* or 52% */
-
-display: flex;
-align-items: center;
-letter-spacing: 0.05em;
-
-color: #000000;
-}
-
-.events-month{
-    position: absolute;
-left: 5%;
-right: 85.87%;
-top: 65.14%;
-bottom: 34.19%;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 48px;
-line-height: 30px;
-/* or 62% */
-
-display: flex;
-align-items: center;
-
-color: #000000;
-
-}
-
-.events-p{
-    position: absolute;
-left: 21.19%;
-right: 54.78%;
-top: 64.7%;
-bottom: 34.63%;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 22px;
-line-height: 30px;
-/* or 136% */
-
-display: flex;
-align-items: center;
-letter-spacing: 0.05em;
-
-color: rgba(0, 0, 0, 0.75);
-
-}
-
-.events-banner{
-    position: absolute;
-left: 67.01%;
-right: 2.5%;
-top: 63.58%;
-bottom: 31.69%;
+@media screen and (min-width: 1088px){
+    .navbar-center {
+       display:flex;
+       justify-content: stretch;
+       align-items: stretch;
+       flex-grow: 1;
+       flex-shrink: 0;
+       flex-direction: row;
+    }
+    .navbar-link,.navbar-item {
+       align-items: center;
+       display: flex;
+       flex-basis: auto;
+       flex-grow: 1;
+       flex-shrink: 0;
+       justify-content: center;
+    }
+    .navbar-dropdown .navbar-item {
+      justify-content:left;
+    }	
 }
