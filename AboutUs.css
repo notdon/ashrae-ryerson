@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+.menu-items {
+    position: relative;
+    left: 75%;
+}
+
+.menu-spacing {
+    padding: 10px;
+}
+
+.header-container {
+    height: 25%;
+    width: 100%;
+    background: rgb(241, 230, 230);
+}
+
+.title {
+    position: relative;
+    text-align: center;
+}
+
+.learn {
+    margin: 20px;
+    background: green;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+
+.aboutAndCore {
+    text-align: center;
+    background: rgb(182, 182, 129);
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+.wwd {
+    text-align: center;
+}
+
+.blue-background {
+    background: rgb(89, 89, 139);
+}
