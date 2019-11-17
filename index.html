@@ -19,42 +19,45 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-  <script type='text/javascript'>
-    window.smartlook || (function (d) {
-      var o = smartlook = function () { o.api.push(arguments) }, h = d.getElementsByTagName('head')[0];
-      var c = d.createElement('script'); o.api = new Array(); c.async = true; c.type = 'text/javascript';
-      c.charset = 'utf-8'; c.src = 'https://rec.smartlook.com/recorder.js'; h.appendChild(c);
-    })(document);
-    smartlook('init', 'b6513629ced8944c52410ede739b3a8f33748fd2');
-  </script>
+  <script type="text/javascript" src="./main.js"></script>
 </head>
 
 <body>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="">
-        <img src="logo.png" alt="Logo" width="50" height="50">
-        <h1>| Ryerson University</h1>
+  <nav class="navbar" role="navigation" aria-label="main navigation" style="padding: 2px 2px">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="https://bulma.io">
+      <img src="logo.png" width="50" height="50">
+    </a>
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-end">
+      <a class="navbar-item" href="home.html">
+        About Us
       </a>
 
-      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
-        data-target="navbarBasicExample">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
+      <a class="navbar-item" href="index.html">
+        Events
       </a>
-    </div>
 
-    <div id="navbarBasicExample" class="navbar-menu">
-      <div class="navbar-center">
-        <!-- Here I have created the navbar-center class -->
-        <a class="navbar-item" href="home.html">About Us</a>
-        <a class="navbar-item" href="index.html">Events</a>
-        <a class="navbar-item">Team</a>
-        <a class="navbar-item">Contact</a>
-      </div>
+      <a class="navbar-item">
+        Team
+      </a>
+
+      <a class="navbar-item" href="#contact">
+        Contact Us
+      </a>
+
+      
     </div>
-  </nav>
+  </div>
+</nav>
 
 
   <section class="section">
@@ -299,7 +302,7 @@
     </div>
   </section>
 
-  <div class="container">
+  <div class="container" id="contact">
     <div class="columns is-centered is-vcentered is-mobile">
       <div class="column is-narrow has-text-centered">
         <a href="mailto: ashrae@ryerson.ca"><img src="mail.svg" alt="triangle with all three sides equal" height="87px"
